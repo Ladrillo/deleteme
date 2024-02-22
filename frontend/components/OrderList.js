@@ -36,7 +36,7 @@ export default function OrderList() {
             return <button
               data-testid={`filterBtn${size}`}
               className={className}
-              onClick={Function}
+              onClick={Function.prototype}
               key={size}>{size}</button>
           })
         }
