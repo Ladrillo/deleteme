@@ -32,7 +32,7 @@ export default function OrderList() {
         {
           ['All', 'S', 'M', 'L'].map(size => {
             const onClick = () => dispatch(selectSizeFilter(size))
-            const className = `button-filter${size === currentFilter ? ' active' : ''}`
+            const className = `button-filter${size === currentFilter ? ' active' : ''}`//
             return <button
               data-testid={`filterBtn${size}`}
               className={className}
